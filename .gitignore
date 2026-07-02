@@ -1,0 +1,6 @@
+# Private working files — never publish
+notes.txt
+notes_research.txt
+
+# Old Jekyll source (superseded by the static site at the repo root)
+markdown-site/

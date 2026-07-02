@@ -4,149 +4,283 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research | Elsai Mati Asefa</title>
-  <meta name="description" content="Research by Elsai Mati Asefa on trade-linked chemical exposure, persistent organic pollutants, pesticide pollution, heavy metals, organochlorine pesticides, GIS, and environmental health risk assessment.">
+  <meta name="description" content="Research on non-targeted analysis, global chemical flows, trade-linked exposure, environmental modelling, and public-health risk.">
   <meta name="author" content="Elsai Mati Asefa">
-  <meta property="og:title" content="Research | Elsai Mati Asefa">
-  <meta property="og:description" content="Research connecting contaminant fate, food systems, global trade, dietary exposure, body burden, and public-health risk.">
+  <meta property="og:title" content="Research">
+  <meta property="og:description" content="Research on non-targeted analysis, global chemical flows, trade-linked exposure, environmental modelling, and public-health risk.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/site-card.svg">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,650&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="Elsai Mati Asefa home"><span class="brand-mark">EA</span><span><span class="brand-name">Elsai Mati Asefa</span><span class="brand-meta">Wania Group · UTSC</span></span></a>
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Home</a>
-      <a href="research.html" aria-current="page">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="assets/Elsai_Mati_Asefa_CV.pdf">CV</a>
-      <a class="nav-cta" href="mailto:elsyyymati@gmail.com">Contact</a>
-    </nav>
-  </div>
-</header>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<main id="main">
-  <div class="container">
-    <section class="page-hero reveal">
-      <p class="eyebrow">Research</p>
-      <h1 class="page-title">From environmental contamination to exposure, dose, and risk.</h1>
-      <p class="lead">My research connects mechanistic contaminant fate, evidence synthesis, geospatial analysis, and public-health risk assessment. The common thread is accounting for exposures that are difficult to see because data are sparse, chemicals move across media, or supply chains separate emissions from the people ultimately exposed.</p>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html">Elsai Mati Asefa</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="toggleNav(this)">☰</button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a class="nav-cv" href="assets/Elsai_Mati_Asefa_CV.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="prose">
+          <h1>Current PhD research</h1>
+
+          <h3 id="nta">Non-targeted analysis of atmospheric chemicals</h3>
+          <p>
+            Non-targeted analysis using high-resolution mass spectrometry (NTA-HRMS) can detect thousands of
+            chemical features without relying on predefined analyte lists. This substantially expands the
+            chemical space covered by environmental monitoring compared with conventional targeted approaches.
+            NTA-HRMS has expanded the scope of environmental monitoring, supported the discovery of previously
+            unmonitored contaminants, and improved the characterization of complex chemical mixtures. Its
+            application to atmospheric chemicals, particularly those in the gas phase, nevertheless remains
+            limited. In our recent scoping review, 76% of the 118 identified studies were published in or after
+            2020, while passive sampling was used in only 11% of studies (<em>unpublished results</em>).
+          </p>
+          <figure>
+            <a href="assets/figure-1-atmospheric-nta.jpg" target="_blank" rel="noopener">
+              <img src="assets/figure-1-atmospheric-nta.jpg" alt="Summary of atmospheric NTA-HRMS studies, including study purpose, sampling type, geography, target phase, publication year, sampling environment, and analytical platform.">
+            </a>
+            <figcaption>
+              Preliminary findings from an unpublished scoping review of atmospheric NTA-HRMS studies.
+            </figcaption>
+          </figure>
+
+          <h3 id="trade">Globalized and trade-decoupled chemical exposure</h3>
+          <p>
+            People worldwide are exposed to hazardous chemicals released throughout the chemical life cycle,
+            from production and use to emissions, disposal, and eventual human uptake. For many chemicals,
+            however, causal links between exposure and health outcomes remain difficult to establish. A central
+            challenge is the complexity of exposure itself: individual behaviours, multiple exposure pathways,
+            diverse chemical mixtures, and source–receptor relationships that are increasingly decoupled across
+            space and time. International trade can separate where chemicals are produced and emitted, where
+            food, feed, and other goods are produced and consumed, where products are used and discarded, and,
+            ultimately, where exposure occurs. My research aims to quantify this decoupling through a
+            source-to-dose modelling framework that traces contaminants through environmental systems and
+            supply chains to human exposure and body burdens far from their original sources. In addition, this
+            work examines inequalities among countries and populations and explores frameworks for allocating
+            responsibility.
+          </p>
+
+          <h4>Food trade and chemical exposure</h4>
+          <p>
+            Food systems occupy a structurally unique position within the chemical-pollution landscape. Modern
+            food production is often chemically intensive and therefore a source of contamination, while food
+            also functions as a direct carrier of chemical residues into the human body. In an increasingly
+            interconnected global economy, chemicals may be applied or released in one region, regulated under
+            one governance regime, and consumed elsewhere through traded food products. This challenges the
+            traditional assumption that chemical use, environmental release, and exposure occur in close
+            geographic proximity. Producing regions may bear occupational and environmental exposures, while
+            consuming regions experience dietary exposure to contaminants in imported foods.
+            <a href="https://doi.org/10.1088/1748-9326/ae8289" target="_blank" rel="noopener">Read the full review →</a>
+          </p>
+          <figure>
+            <a href="assets/figure-3-food-trade.jpg" target="_blank" rel="noopener">
+              <img src="assets/figure-3-food-trade.jpg" alt="Illustration of how international food trade can separate chemical production and environmental release from dietary exposure and biological uptake.">
+            </a>
+            <figcaption>
+              International trade can relocate risk by separating chemical use and environmental release from
+              dietary exposure and biological uptake.
+            </figcaption>
+          </figure>
+
+          <h4>Production to body burden: a PBDE case study</h4>
+          <p>
+            Demand can drive production, which in turn generates emissions and exposure. Conversely, production
+            and trade can shape consumer behaviour and the distribution of exposure. Trade-related exposure can
+            therefore be understood as both <em>trade-induced</em> and <em>trade-redistributed</em>. In the
+            context of PBDEs, for example, <em>trade-induced exposure</em> arises when demand for electronics,
+            furniture, textiles, vehicles, and other PBDE-containing products drives production and emissions
+            elsewhere, eventually contributing to exposure. <em>Trade-redistributed exposure</em> occurs when
+            contaminated feed and food physically move PBDEs between regions through food systems and trade.
+            Building on the work of
+            <a href="https://doi.org/10.1021/acs.est.8b07032" target="_blank" rel="noopener">Abbasi et al. (2019)</a>,
+            I am developing a modelling framework that traces historical PBDE stocks and emissions, contamination
+            of feed and food, and the resulting human body burdens. The longer-term aim is to connect modelled
+            body burdens with disease burden using existing epidemiological evidence.
+          </p>
+
+          <h4>Contaminant Carrying Capacity in Traded Food and Feed</h4>
+          <p>
+          Existing trade-linked exposure studies typically estimate contaminant transfer as the product of the mass of traded food and the measured or modeled residue concentration. This does not distinguish source contamination from the intrinsic capacity of different food matrices to acquire, retain, and transport chemicals. We propose a thermodynamically based metric to quantify this carrying capacity, defined as the product of a food’s fugacity capacity <i>Z</i><sub>food</sub> and its traded volume, <i>V</i><sub>food</sub>. Bulk food <i>Z</i>-values are calculated from food composition and a compound’s partitioning into storage lipid, membrane lipid, protein, water, carbohydrate, and other non-lipid organic matter. <i>V</i><sub>food</sub> and its variability over time are derived from international trade data. Actual contaminant mass transfer can then be expressed as <i>Z</i><sub>food</sub>&middot;<i>V</i><sub>food</sub>&middot;<i>f</i><sub>food</sub>, where <i>f</i><sub>food</sub> is the chemical fugacity in the commodity at origin, estimated from residue measurements or fate and food-chain models.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <div class="content-grid">
-      <aside class="toc" aria-label="Page sections">
-        <a href="#trade-exposure">Current PhD</a>
-        <a href="#framework">Framework</a>
-        <a href="#pesticides">Pesticides</a>
-        <a href="#contaminants">Contaminants</a>
-        <a href="#synthesis-gis">Synthesis &amp; GIS</a>
-        <a href="#methods">Methods</a>
-      </aside>
+    <section class="section section-tint">
+      <div class="container">
+        <div class="prose">
+          <h2>Other ongoing projects</h2>
 
-      <div>
-        <article class="article-section" id="trade-exposure">
-          <p class="kicker">01 / Current PhD research</p>
-          <h2>Globalized and trade-decoupled chemical exposure</h2>
-          <p>International trade can move food, feed, products, waste, and embedded chemicals across long distances. This means the geography of emissions can become separated from the geography of exposure. My PhD develops a forward, mass-conserving source-to-dose framework that follows chemicals from release, through environmental fate and supply chains, into diet and human body burden.</p>
-          <p>The proof-of-concept focuses on persistent organic pollutants, especially PBDE flame retardants, in the aquaculture supply chain: Peruvian anchoveta to fishmeal and fish oil, fishmeal and fish oil to farmed salmon, and farmed salmon to consumers. The broader goal is to move environmental accounting from an emission-centric view toward an exposure-centric view.</p>
-          <div class="process" aria-label="Current PhD workflow">
-            <span>source inventory</span><span>multimedia fate</span><span>food-web uptake</span><span>trade routing</span><span>dietary intake</span><span>body burden</span><span>uncertainty</span>
-          </div>
-        </article>
+          <h4>From body burden to disease burden</h4>
+          <p>
+            A practical comparative risk assessment methodology, with PCB-153 as a worked example. A full
+            workflow showing how to link modelled chemical body-burden distributions to
+            health-burden estimates using comparative risk assessment, implemented in Python and R.
+          </p>
 
-        <article class="article-section" id="framework">
-          <p class="kicker">02 / Research framework</p>
-          <h2>A transparent chain from release to receptor</h2>
-          <p>The website now uses one explicit scientific framework as a visual anchor: chemical release, environmental fate, food systems, trade routing, human exposure, and body burden or risk. This is meant to make the research programme legible to environmental chemists, exposure scientists, public-health researchers, and potential collaborators who may enter from different parts of the chain.</p>
-          <div class="framework" aria-label="Research framework from release to risk">
-            <div class="framework-step"><small>01</small><h3>Release</h3><p>Emission inventories and source characterization.</p></div>
-            <div class="framework-step"><small>02</small><h3>Fate</h3><p>Transport, partitioning, degradation, and deposition.</p></div>
-            <div class="framework-step"><small>03</small><h3>Food</h3><p>Contaminant uptake by food and feed carriers.</p></div>
-            <div class="framework-step"><small>04</small><h3>Trade</h3><p>Routing between production and consumption geographies.</p></div>
-            <div class="framework-step"><small>05</small><h3>Exposure</h3><p>Dietary intake and receptor contact.</p></div>
-            <div class="framework-step"><small>06</small><h3>Risk</h3><p>Body burden, uncertainty, and interpretation.</p></div>
-          </div>
-        </article>
+          <h4>Exposure quantification under data-poor settings</h4>
+          <p>
+            Chemical exposure is a major but unevenly quantified component of environmental health risk
+            worldwide. In many Global South countries, routine chemical monitoring systems remain scarce,
+            despite substantial exposure concern and health burdens. Some efforts by local universities,
+            research institutes, and regulatory agencies do exist, reporting occurrence data for multiple
+            chemicals in the environment and biological matrices. However, a few efforts have been made to
+            systematically collect, organize, analyze, and validate these scattered data for exposure
+            assessment in a rigorous way. The aim is to develop and demonstrate a reproducible framework that
+            integrates evidence appraisal, robust statistical synthesis, and external triangulation to quantify
+            chemical exposure burdens in data-poor settings.
+          </p>
 
-        <article class="article-section" id="pesticides">
-          <p class="kicker">03 / Pesticide pollution and risk</p>
-          <h2>Evidence-based pesticide risk assessment in Ethiopia</h2>
-          <p>During my MSc and subsequent work, I built a structured evidence base on pesticide contamination in Ethiopian surface waters. The work combined evidence mapping, systematic review, meta-analysis, field-concentration databases, fate modelling, and ecological and human-health risk assessment.</p>
-          <p>This research produced a nationwide assessment of pesticide water pollution, human-health risks, and regulatory implications; a meta-analytic ecological risk assessment for pesticides in Ethiopian surface waters; and a site-specific approach for comparing measured and simulated pesticide concentrations. It is a central example of how environmental-health decisions in data-limited settings can still be made more quantitative, transparent, and defensible.</p>
-        </article>
+          <h4>Dietary pesticide residues and health risk in Ethiopia</h4>
+          <p>
+            We synthesised Ethiopia’s published food-residue evidence and screened the implied dietary health
+            risks with a fully reproducible framework. We derived independent study-by-pesticide-by-food effect
+            sizes, pooled them in a three-level meta-analysis with cluster-robust variance, and combined them
+            with a survey-weighted two-part national consumption model in a two-dimensional Monte Carlo screen
+            of non-cancer and cancer endpoints, with pre-specified source and parameter sensitivity analyses.
+            The pooled residue concentration was 12.6 µg/kg (95% CI 6.1–26.0) with 100% between-study
+            heterogeneity. Risk was concentrated in a small set of legacy organochlorines and foods.
+          </p>
+          <figure>
+            <a href="assets/Figure-4-ethiopia.png" target="_blank" rel="noopener">
+              <img src="assets/Figure-4-ethiopia.png" alt="Dietary pesticide residues and health risk in Ethiopia.">
+            </a>
+            <figcaption>Dietary pesticide residues and screened health risk in Ethiopia.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-        <article class="article-section" id="contaminants">
-          <p class="kicker">04 / Contaminants and human health</p>
-          <h2>Organochlorine pesticides, heavy metals, and indoor air pollution</h2>
-          <div class="project-block">
-            <div class="project-code">P4A</div>
-            <div>
-              <h3>Organochlorine pesticides in Ethiopian waters</h3>
-              <p>I assessed DDT and related organochlorine pesticides in Ethiopian aquatic systems, with attention to bioaccumulation, bioconcentration, fish consumption, water ingestion, and implications for environmental and human health.</p>
-              <p class="project-meta">Toxicology Reports · aquatic exposure · DDT</p>
-            </div>
-          </div>
-          <div class="project-block">
-            <div class="project-code">P4B</div>
-            <div>
-              <h3>Heavy metals in drinking water</h3>
-              <p>This work synthesized evidence on heavy metals in Ethiopian drinking-water sources and translated measured concentrations into nationwide and regional public-health risk estimates.</p>
-              <p class="project-meta">Science of the Total Environment · drinking water · public health</p>
-            </div>
-          </div>
-          <div class="project-block">
-            <div class="project-code">P4C</div>
-            <div>
-              <h3>Indoor air pollution in Ethiopian households</h3>
-              <p>This earlier work examined household exposure to indoor air pollution, linking environmental conditions, exposure settings, and public-health relevance in Ethiopia.</p>
-              <p class="project-meta">Heliyon · household exposure · environmental health</p>
-            </div>
-          </div>
-        </article>
+    <section class="section">
+      <div class="container">
+        <div class="prose">
+          <h2>Past projects</h2>
 
-        <article class="article-section" id="synthesis-gis">
-          <p class="kicker">05 / Evidence synthesis and geospatial analysis</p>
-          <h2>Systematic review, meta-analysis, GIS, and spatial decision support</h2>
-          <p>A consistent strand of my work is the conversion of scattered environmental evidence into structured, analyzable datasets. I use systematic review and meta-analysis to organize field measurements and exposure estimates, and GIS to represent spatially structured environmental-health problems.</p>
-          <p>My earlier GIS work used multicriteria evaluation for solid-waste landfill site selection in Harar City, Ethiopia, and contributed a book chapter on GIS applications in solid-waste management. These projects inform my current interest in spatially explicit exposure modelling and geospatial epidemiology.</p>
-        </article>
+          <h4>Evidence synthesis and geospatial analysis</h4>
+          <p>
+            Much of my previous work involved turning scattered environmental evidence into structured,
+            analyzable datasets. I have used systematic review and meta-analysis to organize field measurements
+            and exposure estimates, and GIS to represent spatially structured environmental-health problems. My
+            earlier GIS work applied multicriteria evaluation to solid-waste landfill site selection in Harar
+            City, Ethiopia, and contributed to a book chapter on GIS applications in solid-waste management.
+          </p>
 
-        <article class="article-section" id="methods">
-          <p class="kicker">06 / Methods and tools</p>
-          <h2>Methods I use across projects</h2>
-          <div class="card-grid">
-            <div class="card"><div class="card-label"><span>Exposure</span><span>Risk</span></div><h3>Risk assessment</h3><p>Acute, chronic, ecological, and human-health risk assessment for individual chemicals and mixtures, drawing on US EPA and EFSA-style frameworks.</p></div>
-            <div class="card"><div class="card-label"><span>Models</span><span>Fate</span></div><h3>Environmental modelling</h3><p>Multimedia and watershed modelling for pollutant fate and transport, including PRIMET, USEtox, BETR, SWAT, and related frameworks.</p></div>
-            <div class="card"><div class="card-label"><span>Data</span><span>Synthesis</span></div><h3>Evidence synthesis</h3><p>Systematic review, meta-analysis, evidence mapping, PRISMA-style workflows, and extraction of structured exposure databases from literature.</p></div>
-            <div class="card"><div class="card-label"><span>Space</span><span>GIS</span></div><h3>Geospatial analysis</h3><p>Spatial modelling and decision support using QGIS, ArcGIS, multicriteria evaluation, and gridded environmental datasets.</p></div>
-          </div>
-          <ul class="chip-list">
-            <li>R</li><li>QGIS</li><li>ArcGIS</li><li>PRISMA</li><li>Cochrane-style review</li><li>PRIMET</li><li>USEtox</li><li>BETR</li><li>SWAT</li><li>Monte Carlo analysis</li><li>Exposure modelling</li><li>Risk characterization</li>
-          </ul>
-        </article>
+          <h4>Pesticide pollution and risk in Ethiopia</h4>
+          <p>
+            During my MSc and subsequent work, I synthesized evidence on pesticide pollution in Ethiopian
+            surface waters. This research combined systematic review, meta-analysis, field-concentration
+            databases, model evaluation, and ecological and human-health risk assessment. It demonstrates how
+            environmental-health decisions in data-limited settings can become more quantitative, transparent,
+            and defensible.
+          </p>
 
-        <section class="callout" aria-labelledby="collab-title">
-          <h2 id="collab-title">Collaboration interests</h2>
-          <p>I am especially interested in collaborations on persistent organic pollutants, food-trade exposure pathways, chemical exposomics, non-targeted analysis, geospatial epidemiology, and exposure modelling for low- and middle-income settings.</p>
-          <div class="actions">
-            <a class="btn" href="mailto:elsyyymati@gmail.com">Start a conversation <span aria-hidden="true">→</span></a>
-            <a class="btn secondary" href="publications.html">Publication record <span aria-hidden="true">→</span></a>
-          </div>
-        </section>
+          <h4>Heavy metals in drinking water</h4>
+          <p>
+            This work synthesized evidence on heavy metals in Ethiopian drinking-water sources and translated
+            measured concentrations into nationwide and regional public-health risk estimates.
+          </p>
+
+          <h4>Indoor air pollution in Ethiopian households</h4>
+          <p>
+            This earlier research examined household exposure to indoor air pollution, connecting environmental
+            conditions and exposure settings with their public-health relevance in Ethiopia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <h2>Methods and tools</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Environmental chemistry</h3>
+            <p>Non-targeted analysis, high-resolution mass spectrometry, GC–MS, and LC–MS/MS.</p>
+          </article>
+          <article class="card">
+            <h3>Environmental modelling</h3>
+            <p>
+              Fugacity-based multimedia models for pollutant fate and transport, including BETR-Global, NEM,
+              and PROTEX; and dynamic substance-flow analysis in the global anthroposphere using CiP-CAFE.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Risk assessment</h3>
+            <p>
+              Ecological and human-health risk assessment using frameworks developed by Health Canada, the US
+              EPA, and EFSA; and dose–response derivation based on comparative risk assessment and Global
+              Burden of Disease methodologies.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Evidence synthesis</h3>
+            <p>
+              Systematic review, meta-analysis, evidence mapping, PRISMA-style workflows, and structured
+              exposure databases extracted from the literature.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Geospatial analysis</h3>
+            <p>
+              Spatial modelling and decision support using QGIS, ArcGIS, multicriteria evaluation, and gridded
+              environmental datasets.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band">
+      <div class="container">
+        <h2>Collaboration interests</h2>
+        <p>
+          I welcome collaborations across environmental chemistry, life-cycle assessment, industrial ecology, ecological economics,
+          epidemiology, biostatistics, public health, evidence synthesis, and metascience.
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-light" href="mailto:els.asefa@mail.utoronto.ca"><img class="link-icon" src="assets/icons/outlook.svg" alt="" aria-hidden="true">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <div>© <span id="year">2026</span> Elsai Mati Asefa</div>
+      <div class="footer-links">
+        <a href="mailto:els.asefa@mail.utoronto.ca"><img class="link-icon" src="assets/icons/outlook.svg" alt="" aria-hidden="true">Email</a>
+        <a href="https://scholar.google.com/citations?user=Y1YDrd4AAAAJ&amp;hl=en" target="_blank" rel="noopener"><img class="link-icon" src="assets/icons/google-scholar.svg" alt="" aria-hidden="true">Google Scholar</a>
+        <a href="https://orcid.org/0000-0001-7864-8382" target="_blank" rel="noopener"><img class="link-icon" src="assets/icons/orcid.svg" alt="" aria-hidden="true">ORCID</a>
+        <a href="https://www.researchgate.net/profile/Elsai-Mati-Asefa" target="_blank" rel="noopener"><img class="link-icon" src="assets/icons/researchgate.svg" alt="" aria-hidden="true">ResearchGate</a>
       </div>
     </div>
-  </div>
-</main>
+  </footer>
 
-<footer class="footer">
-  <div class="container footer-inner">
-    <span>© 2026 Elsai Mati Asefa</span>
-    <span><a href="assets/Elsai_Mati_Asefa_CV.pdf">CV</a> · <a href="mailto:elsyyymati@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=Y1YDrd4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a></span>
-  </div>
-</footer>
+  <script>
+    function toggleNav(btn) {
+      var header = document.getElementById('site-header');
+      var open = header.classList.toggle('nav-open');
+      btn.setAttribute('aria-expanded', open);
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
